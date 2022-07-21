@@ -8,16 +8,18 @@ Consult documentation on how to utilize the following methods:
 /* Base 10 to base 2 */
 function decimalToBinary(blob) {
   // Your code here
-  
+
     let binary = blob.toString(2);
     return `0b${binary}`
 
-  
+
 }
 
 /* Base 10 to base 16 */
 function decimalToHexadecimal(blob) {
   // Your code here
+  let binary = blob.toString(16);
+    return `0x${binary}`
 }
 
 /* Base 2 to base 10 */
