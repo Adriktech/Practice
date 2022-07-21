@@ -9,6 +9,10 @@ Consult documentation on how to utilize the following methods:
 function decimalToBinary(blob) {
   // Your code here
   
+    let binary = blob.toString(2);
+    return `0b${binary}`
+
+  
 }
 
 /* Base 10 to base 16 */
