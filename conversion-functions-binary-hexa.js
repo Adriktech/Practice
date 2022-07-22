@@ -33,7 +33,7 @@ function binaryToDecimal(blob) {
 /* Base 16 to base 10 */
 function hexadecimalToDecimal(blob) {
   // Your code here
-  let parsed = parseInt(+blob, 10)
+  let parsed = parseInt(blob)
   return parsed
   
 }
